@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+
+#graphiql:
+#  enabled: true
+#  endpoint: /graphql
+#  mapping: /graphiql
+
+
+
+#graphql:
+#  servlet:
+#    mapping: /graphql
+#    enabled: true
+#    corsEnabled: true
+#  tools:
+#    schemaLocationPattern: "**/*.graphqls"
+#graphiql:
+#  mapping: /graphiql
+#  endpoint:
+#    graphql: /graphql
+#    subscriptions: /subscriptions
