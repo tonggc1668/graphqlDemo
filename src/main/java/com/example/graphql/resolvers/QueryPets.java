@@ -8,13 +8,8 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Covey Liu, covey@liukedun.com
- * Date: 8/27/2019 2:18 PM
- */
-
 @Component
-public class Query implements GraphQLQueryResolver {
+public class QueryPets implements GraphQLQueryResolver {
 
     public List<Pet> pets() {
         List<Pet> pets = new ArrayList<>();

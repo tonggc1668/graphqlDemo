@@ -2,10 +2,6 @@ package com.example.graphql.entities;
 
 import com.example.graphql.enums.Animal;
 
-/**
- * @author Covey Liu, covey@liukedun.com
- * Date: 8/27/2019 2:15 PM
- */
 public class Pet {
 
     private long id;
