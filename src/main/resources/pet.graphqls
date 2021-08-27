@@ -1,3 +1,7 @@
 extend type Query {
     pets: [Pet]
 }
+
+extend type Mutation{
+	savePet(pet:PetInput): Pet
+}

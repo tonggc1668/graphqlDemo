@@ -12,3 +12,9 @@ enum Animal {
     MAMMOTH
     OOOOOO
 }
+
+input PetInput {
+    type: Animal
+    name: String
+    age: Int
+}
