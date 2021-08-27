@@ -1,8 +1,3 @@
-type Query {
-    pets: [Pet]
-    animals: [Animal]
-}
-
 type Pet {
     id: Int
     type: Animal
