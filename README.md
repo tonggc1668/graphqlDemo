@@ -45,6 +45,9 @@ type
 
 
 or
+curl 'http://localhost:8081/graphql' -d $'{"query":"mutation {savePet(pet: {name: \\"Covey\'s dog\\", age: 3, type: DOG}) {id name age type}}","variables":null}'
+
+or
 
 postman
 
